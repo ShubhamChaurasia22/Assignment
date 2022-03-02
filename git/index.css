@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+    color: blue;
+}
+header {
+    max-width: 100%;
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+    background-color: #24292F;
+}
+header img {
+    max-width: 30px;
+    background-color: #fff;
+}
+.container {
+    max-width: 100%;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+
+}
+.subcontainer{
+    max-width: 100%;
+}
+.section-div {
+    max-width: 95%;
+/*     border: 1px solid #000; */
+    display:flex;
+    flex-direction:column;
+    margin: auto;
+    padding: 10px;
+}
+.section-subdiv {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction:column;
+}
+.section-subdiv input {
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+.section-details {
+    display: flex;
+    margin-top: 10px;
+}
+.section-details img {
+    width: 20px;
+    border-radius: 50%;
+}
+.section-details p {
+    margin-left: 8px;
+}
+.section-details {
+    display: flex;
+    margin-top: 10px;
+}
+.section-details img {
+    width: 20px;
+    border-radius: 50%;
+}
+.section-details p {
+    margin-left: 8px;
+}
+.section-detail {
+    max-width: 98%;
+    border: 1px solid grey;
+    padding: 8px;
+}
+.section-btn {
+    display: flex;
+    justify-content: flex-end;
+}
+.btn {
+    max-width: 40%;
+    height: 25px;
+    padding: 5px;
+    margin-right: 5px;
+    color: blue;
+}
+.btnn {
+    background-color: #2C974B;
+    color: #fff;
+}
+.explore {
+    justify-content: flex-start;
+}
+.repository {
+    padding: 20px;
+    display: none;
+}
+.repo {
+    margin: 3px;
+    border: 0;
+}
+.repo p {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 14px;
+}
+.footer-details {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.footer-details ul {
+    list-style-type:none;
+}
+
+@media only screen and (min-width: 768px){
+    .container {
+        flex-direction: row;
+    }
+    .subcontainer {
+        max-width: 60%;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .repository {
+        display: block;
+    }
+}

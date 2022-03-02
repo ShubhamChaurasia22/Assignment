@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./cal.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <span>Operand_1:</span>
+            <input type="number" placeholder="Enter Number" id="num_1"/>
+        </div>
+        <div class="content">
+            <span>Operand_2:</span>
+            <input type="number" placeholder="Enter Number" id="num_2"/>
+        </div>
+        <div class="operations">
+            <input type="submit" value="+" onclick="return addFun()"/>
+            <input type="submit" value="-" onclick="return subFun()"/>
+            <input type="submit" value="*" onclick="return mulFun()"/>
+            <input type="submit" value="/" onclick="return divFun()"/>
+            <input type="submit" value="%" onclick="return modFun()"/>
+            <input type="submit" value="**" onclick="return expFun()"/>
+            <input type="submit" value="R" onclick="return resFun()"/>
+        </div>
+        <div class="answer">
+            <span>Result:</span>
+            <div id="result"></div>
+        </div>
+    </div>
+    <script src="./cal.js"></script>
+</body>
+</html>

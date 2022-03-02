@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    overflow: visible;
+    scroll-snap-type: x mandatory;
+}
+.col {
+    background-color: rgb(156, 69, 69);
+}
+.col2 {
+    background-color: rgba(169, 233, 86, 0.733);
+}
+.col3 {
+    background-color: rgb(75, 168, 255);
+}
+.container > .items {
+    min-width: 100%;
+    scroll-snap-align: start;
+}

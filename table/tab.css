@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Redressed;
+    src: url(/Redressed/Redressed-Regular.ttf);
+}
+ul {
+    list-style: none;
+    display: flex;
+}
+li {
+    width: 10%;
+}
+span {
+    font-family: Redressed;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+}
+span:first-child {
+    background-color: rgb(141, 230, 175);
+}
+span:nth-child(n+3) {
+    background-color: rgb(241, 193, 161);
+}
+span:nth-child(even) {
+    background-color: rgb(229, 151, 226);
+}
+/* #table {
+    max-width: 60%;
+    display: flex;
+    border: 1px solid #000;
+    margin: auto;
+    font-family: Redressed;
+    text-align: center;
+}
+.Sno {
+    width: 10%;
+    border-right: 1px solid #000;
+}
+.info {
+    width: 35%;
+    border-right: 1px solid #000;
+}
+.password {
+    width: 20%;
+    border-right: 1px solid #000;
+}
+.header {
+    font-size: 22px;
+    font-weight: bold;
+    background-color: rgba(236, 143, 37, 0.555);
+}
+.content {
+    font-size: 20px;
+    background-color: rgb(85, 175, 108);
+}
+.content:hover {
+    background-color: rgba(173, 233, 62, 0.555);
+}
+.alt {
+    background-color:  rgba(37, 236, 136, 0.555);
+}
+.alt:hover {
+    background-color: rgba(23, 192, 31, 0.555);
+} */

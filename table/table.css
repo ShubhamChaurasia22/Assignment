@@ -1,0 +1,55 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Redressed;
+    src: url(/Redressed/Redressed-Regular.ttf);
+} 
+ul {
+    max-width: 70%;
+    margin: auto;
+    list-style: none;
+    font-family: Redressed;
+}
+#table {
+    display: flex;
+    border: 1px solid #000;
+    text-align: center;
+}
+.table-block {
+    width: 25%;
+    border-right: 1px solid #000;
+}
+.Sno {
+    max-width: 5%;
+}
+.info {
+    width: 40%;
+}
+.password {
+    width: 15%;
+}
+.header {
+    height: 30px;
+    background-color: rgb(207, 84, 46);
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+}
+.content {
+    background-color: rgb(122, 252, 144);
+    height: 25px;
+    font-size: 18px;
+    border-bottom: 1px solid #000;
+}
+.content:hover {
+    background-color: rgb(67, 165, 141);
+}
+.alt {
+    background-color: rgb(224, 222, 64);
+}
+.alt:hover {
+    background-color: rgb(22, 100, 189);
+}
