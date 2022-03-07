@@ -1,0 +1,5 @@
+1. Number at even position
+2. Operation at odd position
+3. - operator at first position
+4. Two decimal in single number not allowed
+5. Operator at last position
